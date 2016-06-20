@@ -3,7 +3,6 @@
 
 ##Android编码规范
 
-
 1. java代码中不出现中文，最多注释中可以出现中文；
 2. 局部变量命名、静态成员变量命名：只能包含字母，单词首字母出第一个都为大写，其他字母都为小写；
 3. 常量命名：只能包含字母和_，字母全部大写，单词之间用_隔开；
@@ -79,8 +78,6 @@ drawable对应resid的资源，bitmap对应其他资源8.保证Cursor 占用的�
 7. 自适应屏幕，使用dp替代pix
 8. 使用android:layout_weight或者TableLayout制作等分布局
 9. 使用animation-list制作动画效果
-
-
 
 ##其他的一些Android开发建议
 
