@@ -89,5 +89,4 @@ drawable对应resid的资源，bitmap对应其他资源8.保证Cursor 占用的�
 6. 如果你公司没有强大的测试团队，发布应用前最好把应用放到测试平台去测测，比如云测之类的；
 7. 取应用包名的时候切忌取太容易重复的，如果同款手机已经有该包名，那么会因为签名不同而导致安装不上，这也怪中国安卓市场太多，无法像Google Play那样进行包名审核。
 
-链接：[https://www.zhihu.com/question/27227425/answer/35973793](https://www.zhihu.com/question/27227425/answer/35973793)
 
