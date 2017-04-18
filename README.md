@@ -1,7 +1,7 @@
-#好的Android开发习惯
+# 好的Android开发习惯
 ---
 
-##Android编码规范
+## Android编码规范
 
 1. java代码中不出现中文，最多注释中可以出现中文；
 2. 局部变量命名、静态成员变量命名：只能包含字母，单词首字母出第一个都为大写，其他字母都为小写；
@@ -42,7 +42,7 @@ strings.xml中，使用activity名称注释，将文件内容区分开来
 字符型转数字型，如果转换失败一定要有缺省值；
 服务端响应数据是否有效判断；
 
-##Android性能优化
+## Android性能优化
 
 1. http用gzip压缩，设置连接超时时间和响应超时时间
 http请求按照业务需求，分为是否可以缓存和不可缓存，那么在无网络的环境中，仍然通过缓存的httpresponse浏览部分数据，实现离线阅读。
@@ -67,7 +67,7 @@ drawable对应resid的资源，bitmap对应其他资源8.保证Cursor 占用的�
 11. 应用开发中自定义View的时候，交互部分，千万不要写成线程不断刷新界面显示，而是根据TouchListener事件主动触发界面的更新
 
 
-##Android UI优化
+## Android UI优化
 
 1. layout组件化，尽量使用merge及include复用
 2.  使用styles，复用样式定义
@@ -79,7 +79,7 @@ drawable对应resid的资源，bitmap对应其他资源8.保证Cursor 占用的�
 8. 使用android:layout_weight或者TableLayout制作等分布局
 9. 使用animation-list制作动画效果
 
-##其他的一些Android开发建议
+## 其他的一些Android开发建议
 
 1. 跟上时代的步伐，把Eclipse换成Android Studio，把SVN换成Git，这当然要适合项目开发属性的需要，Git学习中文网站：[https://git-scm.com/book/v2zh/v2](https://git-scm.com/book/zh/)
 2. 勤做总结，推荐使用印象笔记，把一些懂的经验总结起来，把还不懂的文章挂里面，有时间就慢慢消化；
